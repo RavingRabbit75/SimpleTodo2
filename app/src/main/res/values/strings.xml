@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SimpleTodo</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="enter_item_hint">Enter Item</string>
-    <string name="title_activity_edit_item">EditItemActivity</string>
-    <string name="Edit_Item">Edit Item Below:</string>
+    <string name="app_name">Simple Todo</string>
+
+    <string name="action_newTodoItem">New Todo</string>
+    <string name="action_showCompleted">Show Completed</string>
+    <string name="action_showUnCompleted">Show Uncompleted</string>
+    <string name="action_showAll">Show All</string>
+
+    <string name="enter_item_hint">Enter New Todo Item</string>
+    <string name="New_TodoItem">New Todo</string>
+
+    <string name="text_DueDateTitle">Due Date</string>
+
+    <string name="title_activity_edit_item">Todo Item Details</string>
+
     <string name="Save_button_text">Save</string>
+    <string name="Peek_button_text">Peek</string>
+    <string name="action_SaveEdits">Save</string>
+
+
 
 </resources>

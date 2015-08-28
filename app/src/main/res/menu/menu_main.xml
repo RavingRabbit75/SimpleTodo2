@@ -1,6 +1,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_newTodoItem"
+        android:orderInCategory="101"
+        android:title="@string/action_newTodoItem"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_ShowUnCompletedItems"
+        android:orderInCategory="102"
+        android:title="@string/action_showUnCompleted"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ShowCompletedItems"
+        android:orderInCategory="103"
+        android:title="@string/action_showCompleted"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ShowAllItems"
+        android:orderInCategory="104"
+        android:title="@string/action_showAll"
+        app:showAsAction="never" />
+
+
 </menu>
